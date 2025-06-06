@@ -13,13 +13,13 @@ export interface CardProps {
     content: string;
     userId: number;
   }
-  export interface UserProps {
-    name: string;
-    email: string;
-    address: {
-      street: string;
-      suite: string;
-      city: string;
-      zipcode: string;
-    };
-  }
+export interface UserProps {
+  id: number;
+  name: string;
+  email: string;
+  address: {
+    street: string;
+    city: string;
+    zipcode: string;
+  };
+}
